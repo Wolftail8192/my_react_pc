@@ -2,6 +2,7 @@ import React from 'react';
 import Users from './Components/Users/Users';
 import UserDetails from './Components/UserDetails/UserDetails';
 import css from './App.module.css';
+import Posts from "./Components/Posts/Posts";
 
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
               <Users/>
               <UserDetails/>
           </div>
-            <Posts/>
+              <Posts/>
         </div>
     );
 };
