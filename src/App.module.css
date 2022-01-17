@@ -1,3 +1,15 @@
 .wrap{
     display: flex;
+    border: 3px solid red;
+    border-right: 25px;
+    justify-content: left;
+    align-items: center;
+}
+.dd{
+    width: 50%;
+    background: cornflowerblue;
+}
+.ff{
+    width: 50%;
+    background: darkgreen;
 }

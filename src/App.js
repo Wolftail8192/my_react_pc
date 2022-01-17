@@ -27,8 +27,8 @@ const App = () => {
     return (
         <div>
           <div className={css.wrap}>
-              <Users getUser={getUser}/>
-              {user && <UserDetails user={user} getUserId={getUserId}/>}
+              <div > < Users getUser={getUser}/> </div>
+              <div > {user && <UserDetails user={user} getUserId={getUserId}/>} </div>
           </div>
             {!!posts.length && <Posts posts={posts}/>}
         </div>
