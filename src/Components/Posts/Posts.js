@@ -5,7 +5,7 @@ import post from "../Post/Post";
 const Posts = ({posts}) => {
     return (
         <div>
-            {posts.map(posts => <Post key={post.id} post={post}/>)}
+            {posts.map( post => <Post key={post.id} post={post}/>)}
         </div>
     );
 };
